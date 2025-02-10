@@ -1,11 +1,3 @@
-@import url("css/fonts.css");
-@import url("css/modules/header.css");
-@import url("css/modules/info.css");
-@import url("css/modules/advantages.css");
-@import url("css/modules/form.css");
-@import url("css/modules/footer.css");
-@import url("css/media.css");
-
 :root {
   --main-color: #282829;
   --text: #222222;
