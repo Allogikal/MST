@@ -1,17 +1,17 @@
 @font-face {
   font-family: "Prata";
-  src: url("/assets/fonts/Prata-Regular.ttf") format("truetype");
+  src: url("./assets/fonts/Prata-Regular.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: "Arial";
-  src: url("/assets/fonts/Arial-Italic.ttf") format("truetype");
+  src: url("./assets/fonts/Arial-Italic.ttf") format("truetype");
   font-style: italic;
 }
 
 @font-face {
   font-family: "Arial";
-  src: url("/assets/fonts/Arial-Regular.ttf") format("truetype");
+  src: url("./assets/fonts/Arial-Regular.ttf") format("truetype");
   font-style: normal;
 }
