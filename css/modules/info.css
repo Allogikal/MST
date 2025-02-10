@@ -74,7 +74,7 @@
 
 #info::after {
   content: "";
-  background-image: url("/MST/assets/images/img_1.png");
+  background-image: url("./assets/images/img_1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center right;
