@@ -1,0 +1,114 @@
+#form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .form_container {
+    width: 80%;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 3px solid var(--link-color);
+    border-radius: 30px;
+    background-size: 30% 100%;
+    background-image: url("/assets/images/img_4.jpg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      padding-left: 15%;
+
+      h2 {
+        font-family: "Prata";
+        font-size: 3.1rem;
+        line-height: 1.1;
+        color: #38535d;
+        text-align: start;
+        width: 70%;
+        margin-top: 0;
+        font-weight: 300;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+
+        input {
+          height: 65px;
+          outline: none;
+          border: 2px solid var(--input-color);
+          color: var(--label-color);
+          padding-left: 30px;
+          line-height: 1.5;
+          font-size: 1.5rem;
+          border-radius: 4px;
+        }
+
+        div:nth-child(1) {
+          display: flex;
+          flex-direction: column;
+          row-gap: 15px;
+          padding-left: 0;
+        }
+
+        div:nth-child(2) {
+          display: flex;
+          padding-left: 0;
+        }
+
+        input[type="checkbox"] {
+          margin-right: 15px;
+          margin-left: 0;
+          width: 24px;
+          height: 24px;
+        }
+
+        input:focus {
+          border-color: var(--link-color);
+        }
+
+        label,
+        label p a,
+        label p {
+          color: var(--label-color);
+          line-height: 1.3;
+          font-size: 1.25rem;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+
+        label {
+          padding: 10px 0;
+        }
+
+        label p a {
+          margin-left: 6px;
+        }
+
+        label p a:hover {
+          color: var(--link-color);
+        }
+
+        button {
+          width: 70%;
+          height: 100px;
+          color: white;
+          background-color: var(--main-color);
+          font-weight: 300;
+        }
+
+        button:hover {
+          background-color: var(--link-color);
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,409 @@
+@media (max-width: 599px) {
+  html {
+    font-size: 11px;
+  }
+
+  .burger-icon {
+    display: flex;
+  }
+
+  .burger-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    background-color: var(--text);
+    right: 0;
+
+    ul {
+      flex-direction: column;
+    }
+
+    li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+
+  .burger-nav.active {
+    display: flex;
+
+    ul {
+      flex-direction: column;
+    }
+  }
+
+  header {
+    width: 100%;
+    justify-content: center;
+    padding: 35px 0 10px 0;
+    div {
+      width: 85%;
+    }
+  }
+
+  #info {
+    width: 100%;
+    align-items: flex-start;
+    padding-top: 40%;
+    justify-content: center;
+    height: 760px;
+    padding-left: 0;
+
+    div {
+      width: 100%;
+      align-items: center;
+
+      .info_subtitle {
+        text-align: center;
+      }
+
+      button {
+        height: 60px;
+      }
+    }
+
+    h1 {
+      text-align: center;
+      width: 90%;
+    }
+  }
+
+  #info::after {
+    background-position: center bottom;
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 80%;
+  }
+
+  #advantages {
+    flex-direction: column;
+
+    div:nth-child(1),
+    div:nth-child(3) {
+      width: 100%;
+      height: 10%;
+    }
+
+    div:nth-child(2) {
+      width: 100%;
+      height: 80%;
+      margin-bottom: 20px;
+
+      ul {
+        width: 90%;
+
+        li {
+          justify-content: flex-start;
+        }
+      }
+
+      button {
+        width: 90%;
+        height: 60px;
+      }
+    }
+  }
+
+  #form {
+    .form_container {
+      background-image: none;
+      height: 480px;
+
+      div {
+        width: 100%;
+        padding-left: 0;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+          width: 90%;
+          text-align: center;
+        }
+
+        form {
+          width: 100%;
+          align-items: center;
+
+          input {
+            height: 45px;
+          }
+
+          button {
+            height: 60px;
+          }
+        }
+
+        input {
+          width: 70%;
+        }
+      }
+    }
+  }
+
+  footer {
+    height: 400px;
+
+    nav {
+      padding: 5% 0;
+
+      ul {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    div:nth-child(2) {
+      flex-direction: column;
+      align-items: center;
+      padding: 5% 0;
+
+      div {
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      button {
+        height: 50px;
+        width: 170px;
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+
+  .burger-icon {
+    display: flex;
+  }
+
+  .burger-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    background-color: var(--text);
+    right: 0;
+
+    ul {
+      flex-direction: column;
+    }
+
+    li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+
+  .burger-nav.active {
+    display: flex;
+
+    ul {
+      flex-direction: row;
+    }
+  }
+
+  header {
+    div {
+      width: 80%;
+    }
+  }
+
+  #info {
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+
+    div {
+      width: 100%;
+      align-items: center;
+
+      button {
+        height: 60px;
+      }
+    }
+
+    h1 {
+      text-align: center;
+      width: 85%;
+    }
+  }
+
+  #info::after {
+    background-position: center bottom;
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    top: 80%;
+  }
+
+  #advantages {
+    flex-direction: column;
+
+    div:nth-child(1),
+    div:nth-child(3) {
+      width: 100%;
+      height: 10%;
+    }
+
+    div:nth-child(2) {
+      width: 100%;
+      height: 80%;
+      margin-bottom: 20px;
+
+      ul {
+        width: 90%;
+
+        li {
+          justify-content: flex-start;
+        }
+      }
+
+      button {
+        width: 90%;
+        height: 60px;
+      }
+    }
+  }
+
+  #form {
+    .form_container {
+      background-image: none;
+
+      div {
+        width: 100%;
+        padding-left: 0;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+          width: 90%;
+          text-align: center;
+        }
+
+        form {
+          width: 100%;
+          align-items: center;
+        }
+
+        input {
+          width: 70%;
+        }
+      }
+    }
+  }
+
+  footer {
+    div:nth-child(2) {
+      div {
+        width: 45%;
+      }
+
+      button {
+        height: 55px;
+        width: 120px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+
+  header div {
+    width: 58%;
+  }
+
+  #info::after {
+    width: 25%;
+  }
+
+  #info {
+    height: 800px;
+
+    div {
+      width: 50%;
+
+      button {
+        width: 160px;
+        height: 68px;
+      }
+    }
+  }
+
+  #advantages {
+    div:nth-child(1),
+    div:nth-child(3) {
+      width: 25%;
+    }
+
+    div:nth-child(2) {
+      width: 50%;
+
+      button {
+        height: 68px;
+      }
+    }
+  }
+
+  #form {
+    .form_container {
+      div {
+        form {
+          input {
+            height: 55px;
+            font-size: 1.3rem;
+          }
+
+          button {
+            height: 80px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    div:nth-child(2) {
+      div {
+        width: 40%;
+      }
+
+      button {
+        width: 135px;
+        height: 50px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+  html {
+    font-size: 15px;
+  }
+
+  header div {
+    width: 55%;
+  }
+
+  #info::after {
+    width: 30%;
+  }
+
+  #info {
+    height: 800px;
+
+    div {
+      width: 50%;
+    }
+  }
+}

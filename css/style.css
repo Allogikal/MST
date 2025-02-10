@@ -1,0 +1,63 @@
+@import url("/css/fonts.css");
+@import url("/css/modules/header.css");
+@import url("/css/modules/header.css");
+@import url("/css/modules/info.css");
+@import url("/css/modules/advantages.css");
+@import url("/css/modules/form.css");
+@import url("/css/modules/footer.css");
+@import url("/css/media.css");
+
+:root {
+  --main-color: #282829;
+  --text: #222222;
+  --title: #38535d;
+  --link-color: #d5c9be;
+  --input-color: #d6d6d6;
+  --label-color: #55565a;
+}
+
+* {
+  transition: all 0.5s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--main-color);
+  color: white;
+
+  button {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    color: var(--text);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: var(--link-color);
+    color: white;
+  }
+
+  nav ul li:hover {
+    background-color: var(--link-color);
+
+    a {
+      color: var(--main-color);
+    }
+  }
+}
